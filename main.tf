@@ -6,6 +6,8 @@ provider "google" {
   credentials = file("playground-s-11-4cd93261-609b4fef0b24.json")
 }
 
+
+
 # module "gke" {
 #   source = "../kubernetes"
 #   network = module.network.vpc_name
